@@ -42,7 +42,7 @@ while (my @row = $sth->fetchrow_array()) {
       $to = 'inara.shakirova@haaga-helia.fi';
       $from = 'jukka.juslin@haaga-helia.fi';
       $subject = 'New words added today!';
-      $message = 'This is word app notifier of new words!';
+      $message = 'This is word app notifier of new words! http://proto58.haaga-helia.fi/sanat ';
 
       open(MAIL, "|/usr/sbin/sendmail -t");
 
